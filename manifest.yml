@@ -1,0 +1,14 @@
+modules:
+  jira:globalPage:
+    - key: work-logger-hello-world
+      function: main
+      title: Work Logger
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/12475792-0a47-4c29-835a-0df901fabe77
+permissions:
+  scopes:
+    - write:jira-work
+    - read:jira-work
